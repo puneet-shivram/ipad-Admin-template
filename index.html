@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 7</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' /s>
+    <link rel="stylesheet" href="final-font/flaticon.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+    <!--    <link rel="stylesheet" href="fonts/flaticon.css">-->
+    <!--    <link rel="stylesheet" href="font/flaticon.css">-->
+
+</head>
+
+<body>
+    <!--Main header starts here-->
+    <header class="header-wrapper">
+        <a href="#" class="logo fleft"> Core Admin</a>
+        <div class="header-icon">
+            <div class="header__list"><i class="flaticon-bulleted-list header-bullet-list-icon"></i></div>
+            <div class="header__menu"><i class="flaticon-menu header-menu-icon"></i></div>
+        </div>
+        <div class="header-right fright">
+            <nav class="main--nav">
+
+<!--
+<a href="#" class="nav--wrapper__list__item nav--wrapper__list__item--active"><i class="flaticon-home header--home"></i><span>Home</span></a>
+<a href="#" class="nav--wrapper__list__item"><i class="flaticon-user header-user"></i><span>Home</span></a>
+<a href="#" class="nav--wrapper__list__item"><span>Home</span><i class="dropdown-arrow"></i></a>
+-->
+            </nav>
+            <div class="header__item">
+                <input type="search" class="header__item__search" placeholder="Search"><span class="flaticon-search header-search"> </span>
+            </div>
+            <div class="header__item header__item--right">
+                <span class="header__item__profile--img--wrapper"><img src="Images/user-img.jpg" class="header__item__profile--img" alt="user image"></span>
+                <a href="#" class="header__item__profile--name">John Smith<i class="dropdown-arrow header__item__profile--name__arrow "></i></a>
+            </div>
+        </div>
+    </header>
+    <!--main header ends  here-->
+    <div class="page-wrapper clearfix">
+        <!--    side-navbar starts here-->
+        <aside class="sidenav--wrapper">
+            <nav class="side--nav--wrapper">
+                <ul class="side--nav">
+                    <li class="side--nav__list side--nav__list-active"><a href="#" class="side--nav__list__item side--nav__list__item__active"><i class="flaticon-dashboard sidenav-dashboard"></i>Dashboard</a></li>
+                    <li class="side--nav__list"><a href="#" class="side--nav__list__item"><i class="flaticon-bottle sidenav-bottle" ></i>UI Lab <span class="sidenav-dropdown-arrow"></span></a></li>
+                    <li class="side--nav__list"><a href="#" class="side--nav__list__item"><i class="flaticon-paper sidenav-paper"></i>Forms</a></li>
+                    <li class="side--nav__list"><a href="#" class="side--nav__list__item"><i class="flaticon-bar-graph sidenav-bar-graph"></i>Charts</a></li>
+                    <li class="side--nav__list"><a href="#" class="side--nav__list__item"><i class="flaticon-link sidenav-link"></i>Others <span class="sidenav-dropdown-arrow"></span></a></li>
+                </ul>
+            </nav>
+
+            <div class="circular--progress">
+                <div class="circular--progress__wrapper"><span class="circular--progress__wrapper__value">25%</span>
+                    <!--                    <div class="circular--progress__wrapper__progress--bar"></div>-->
+                </div>
+                <span class="circular--progress__image__text text--center">CPU Usage</span>
+            </div>
+
+            <ul class="secondary--list--wrapper">
+                <li class="secondary--list--wrapper__item">
+                    <div class="secondary--list--wrapper__item__text">
+                        <h5 class="secondary--list--wrapper__item__text__heading">Orders</h5>
+                        <span class="secondary--list--wrapper__item__text__values">847</span>
+                    </div>
+                    <div class="secondary--list--wrapper__item__graph">
+                        <img src="Images/orders-img.png" alt="">
+                    </div>
+                </li>
+                <li class="secondary--list--wrapper__item">
+                    <div class="secondary--list--wrapper__item__text list2">
+                        <h5 class="secondary--list--wrapper__item__text__heading">Income</h5>
+                        <span class="secondary--list--wrapper__item__text__values">$43.330</span>
+                    </div>
+                    <div class="secondary--list--wrapper__item__graph">
+                        <img src="Images/income-img.png" alt="">
+                    </div>
+                </li>
+                <li class="secondary--list--wrapper__item">
+                    <div class="secondary--list--wrapper__item__text list3">
+                        <h5 class="secondary--list--wrapper__item__text__heading">Reviews</h5>
+                        <span class="secondary--list--wrapper__item__text__values">223</span>
+                    </div>
+                    <div class="secondary--list--wrapper__item__graph">
+                        <img src="Images/orders-img2.png" alt="">
+                    </div>
+                </li>
+            </ul>
+
+        </aside>
+        <!--    side-navbar ends here-->
+
+        <!--        main content wrapper starts here-->
+        <div class="main--content--wrapper">
+            <!--           primary header Starts here-->
+            <div class="row">
+                <div class="conetnt__primary--header clearfix">
+                    <div class="content__primary--header__text--wrapper">
+                        <h3 class="conetnt__primary--header__text--wrapper__heading"><i class="flaticon-dashboard content-primary-header-dashboard"></i>Dashboard</h3>
+                        <h5 class="conetnt__primary--header__text--wrapper__sub--heading">A subtitle can be added here</h5>
+                    </div>
+                    <ul class="content__primary--header__list">
+
+
+                        <li class="content__primary--header__list__item">
+                            <div class="content__primary--header__list__item__text--wrapper">
+                                <h5 class="content__primary--header__list__item__text--wrapper__heading">Orders</h5>
+                                <span class="content__primary--header__list__item__text--wrapper__values1">847</span>
+                            </div>
+                            <div class="content__primary--header__list__item__graph">
+                                <img src="Images/orders-img2.png" alt="">
+                            </div>
+                        </li>
+                        <li class="content__primary--header__list__item">
+                            <div class="content__primary--header__list__item__text--wrapper">
+                                <h5 class="content__primary--header__list__item__text--wrapper__heading">Reviews</h5>
+                                <span class="content__primary--header__list__item__text--wrapper__values2">223</span>
+                            </div>
+                            <div class="content__primary--header__list__item__graph">
+                                <img src="Images/income-img.png" alt="">
+                            </div>
+                        </li>
+                        <li class="content__primary--header__list__item  no-border">
+                            <div class="content__primary--header__list__item__text--wrapper">
+                                <h5 class="content__primary--header__list__item__text--wrapper__heading">New visits</h5>
+                                <span class="content__primary--header__list__item__text--wrapper__values3">7930</span>
+                            </div>
+                            <div class="content__primary--header__list__item__graph">
+                                <img src="Images/visits-img2.png" alt="">
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <!--           primary header Ends here-->
+            <div class="wrapper">
+                <!--            secondary header style starts here-->
+                <div class="row">
+                    <div class="content--secondary--header">
+                        <ul class="content--secondary--header__navbar">
+                            <li class="content--secondary--header__navbar__list">
+                                <a href="#" class="content--secondary--header__navbar__list__item content--secondary--header__navbar__list__item--active "><i class="flaticon-home secondary--icon__home "></i>Home</a>
+                            </li>
+                            <li class="content--secondary--header__navbar__list">
+                                <a href="#" class="content--secondary--header__navbar__list__item"><i class="flaticon-dashboard secondary--icon__tool  content--secondary--headerdashboard--icon"></i>Dashboard</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--            secondary header style starts here-->
+
+                <!--            secrtion features and charts starts here -->
+                <div class="row">
+                    <div class="content--features clearfix">
+                        <ul class="features__left--block">
+                            <!--list 1-->
+                            <li class="features__left-block__list--wrapper">
+
+                                <i class="flaticon-document  features__left--block__icon--file"></i>
+                                <span class="features__left-block__list--wrapper__label1"></span>
+                                <i class="flaticon-plus plus"></i>
+                                <span class="features__left-block__list-wrapper__text">New Projects</span>
+                            </li>
+                            <!--list 2-->
+                            <li class="features__left-block__list--wrapper">
+                                <i class="flaticon-chat  features__left--block__icon--file"></i>
+                                <span class="features__left-block__list--wrapper__label2"><span class="features__left-block__list--wrapper__label2__text">14</span></span>
+                                <span class="features__left-block__list-wrapper__text">Messages</span>
+                            </li>
+                            <!--list 3-->
+                            <li class="features__left-block__list--wrapper">
+                                <i class="flaticon-folder  features__left--block__icon--file"></i>
+                                <span class="features__left-block__list-wrapper__text3">Files</span>
+                            </li>
+
+                            <!--list 4-->
+                            <li class="features__left-block__list--wrapper">
+                                <i class="flaticon-user  features__left--block__icon--file "></i>
+                                <span class="features__left-block__list--wrapper__label4 arrow-green">  </span>
+                                <i class="flaticon-plus features__left-block__list--wrapper__label4--icon"></i>
+                                <span class="features__left-block__list--wrapper__label4__text">3</span>
+                                <span class="features__left-block__list-wrapper__text4">Users</span>
+                            </li>
+                            <!--list 5-->
+                            <li class="features__left-block__list--wrapper">
+                                <i class="flaticon-facebook features__left--block__icon--facebook"></i>
+                                <!--                            <img src="Images/square2.png" style="margin-left: 50px;margin-top: 15px;" alt="">-->
+                                <span class="features__left-block__list-wrapper__text5">Friends</span>
+                            </li>
+
+                            <!--list 6-->
+                            <li class="features__left-block__list--wrapper">
+                                <i class="flaticon-twitter  features__left--block__icon--file"></i>
+                                <span class="features__left-block__list--wrapper__label4">  </span>
+                                <i class="flaticon-plus features__left-block__list--wrapper__label4--icon"></i>
+                                <span class="features__left-block__list--wrapper__label4__text">8</span>
+                                <span class="features__left-block__list-wrapper__text">Followers</span>
+                            </li>
+
+
+                        </ul>
+                        <div class="features__right-block">
+                            <div class="row">
+                                <div class="features__right-block__heading">
+                                    <span class="features__right-block__heading__title">Charts</span>
+                                    <!--                                <span class="features__right-block__heading__title--image"></span>-->
+                                    <i class="flaticon-settings features__left--block__icon--settings"></i>
+                                </div>
+                            </div>
+
+                            <div class="features__right-block__chart--wrapper">
+                                <ul class="features__right-block__chart--wrapper__list">
+                                    <li class="features__right-block__chart--wrapper__list__item full-width">
+                                        <div class="features__right-block__chart--wrapper__list__item--primary__numbers">
+                                            <span class="icon-wrapper-main"><i class="flaticon-energy features__right-block__energy"></i></span><span class="features__right-block__chart--wrapper__list__item--primary__numbers__text total-visit total-visit-text">9735419</span>
+                                            <div class="features__right-block__chart--wrapper__list__item--primary__progressbar progressbar1"></div>
+                                            <span class="features__right-block__chart--wrapper__list__item__text">TOTAL VISITS</span>
+                                        </div>
+                                    </li>
+                                    <li class="features__right-block__chart--wrapper__list__item">
+                                        <span class="icon-wrapper"><i class="flaticon-user features__right-block__chart--wrapper__list__item__people-icon"></i></span><span class="features__right-block__chart--wrapper__list__item--primary__numbers__text">8800</span>
+                                        <div class="features__right-block__chart--wrapper__list__item--primary__progressbar chart--wrapper__list__item--primary__progressbar  "></div>
+                                        <span class="features__right-block__chart--wrapper__list__item__text">NEW VISITORS</span>
+                                    </li>
+                                    <li class="features__right-block__chart--wrapper__list__item">
+                                        <span class="icon-wrapper"><i class="flaticon-eye chart__icon-eye"></i></span><span class="features__right-block__chart--wrapper__list__item--primary__numbers__text">2568</span>
+                                        <div class="features__right-block__chart--wrapper__list__item--primary__progressbar"></div>
+                                        <span class="features__right-block__chart--wrapper__list__item__text">PAGE VIEWS</span>
+                                    </li>
+                                </ul>
+                                <div class="features__right-block__chart--wrapper__chart"><img src="Images/chart.jpg" class="img-responsive" alt="">
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--            section feature and charts ends here -->
+
+                <!--            section calender and scrollable box starts here-->
+                <div class="row clearfix">
+                    <div class="calendar--wrapper">
+                        <div class="calendar--wrapper__primary--header">
+                            <span class="calendar--wrapper__primary--header__heading">Full calendar</span>
+                            <ul class="calendar--wrapper__primary--header__list">
+                                <li class="calendar--wrapper__primary--header__list__item"><a class="calendar--wrapper__primary--header__list__item__link calendar--wrapper__primary--header__list__item__link--active" href="#">month</a></li>
+                                <li class="calendar--wrapper__primary--header__list__item"><a class="calendar--wrapper__primary--header__list__item__link" href="#">week</a></li>
+                                <li class="calendar--wrapper__primary--header__list__item"><a class="calendar--wrapper__primary--header__list__item__link" href="#">day</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="calendar-wrapper__secondary--header">
+                            <div class="calendar__secondary--header__left-item"><span class="left-arrow"></span></div>
+                            <div class="calendar__secondary--header__text"><span class="calendar__secondary __text">April 2013</span></div>
+                            <div class="calendar__secondary--header__right-item"><span class="right-arrow"></span></div>
+                            <!--
+                 <button class="calendar-wrapper__secondary--header__arrow left-arrow" type="button"><span></span></button>
+<span class="calendar-wrapper__secondary--header__text">April 2013</span>
+<button class="calendar-wrapper__secondary--header__arrow right-arrow" type="button"></button>
+-->
+                        </div>
+
+
+                        <table class="calendar--wrapper__content">
+                            <tr class="calender--wrapper__content__row">
+                                <th>Sun</th>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                            </tr>
+                            <tr>
+                                <td class="calender--wrapper__content__data"><span class="date">31</span>
+
+                                </td>
+                                <td class="calender--wrapper__content__data"><span class="date">1</span>
+                                    <div class="calendar--wrapper__content__data__reminder">All Day Event</div>
+                                </td>
+                                <td class="calender--wrapper__content__data"><span class="date">2</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">3</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">4</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">5</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">6</span></td>
+                            </tr>
+                            <tr>
+                                <td class="calender--wrapper__content__data"><span class="date">7</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">8</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">9</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">10</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">11</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">12</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">13</span></td>
+                            </tr>
+                            <tr>
+                                <td class="calender--wrapper__content__data"><span class="date">14</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">15</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">16</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">17</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">18</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">19</span>
+                                    <div class="calendar--wrapper__content__data__reminder-long">Long Event</div>
+                                </td>
+                                <td class="calender--wrapper__content__data"><span class="date">20</span></td>
+                            </tr>
+                            <tr>
+                                <td class="calender--wrapper__content__data"><span class="date">21</span>
+                                    <div class="calendar--wrapper__content__data__reminder-long">Long Event</div>
+                                    <div class="calendar--wrapper__content__data__reminder">4p Repeating Eventssss</div>
+                                </td>
+                                <td class="calender--wrapper__content__data"><span class="date">22</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">23</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">24</span>
+                                    <div class="calendar--wrapper__content__data__reminder">10:30 am meeting</div>
+                                    <div class="calendar--wrapper__content__data__reminder">7p Birthday party</div>
+                                </td>
+                                <td class="calender--wrapper__content__data"><span class="date">25</span>
+                                    <div class="calendar--wrapper__content__data__reminder">7p Birthday party</div>
+                                </td>
+                                <td class="calender--wrapper__content__data"><span class="date">26</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">27</span></td>
+                            </tr>
+                            <tr>
+                                <td class="calender--wrapper__content__data"><span class="date">28</span>
+                                    <div class="calendar--wrapper__content__data__reminder-long">Long Event</div>
+                                    <div class="calendar--wrapper__content__data__reminder">4p Repeating Event</div>
+                                </td>
+                                <td class="calender--wrapper__content__data"><span class="date">29</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">30</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">1</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">2</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">3</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">4</span></td>
+                            </tr>
+                            <tr>
+                                <td class="calender--wrapper__content__data"><span class="date">5</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">6</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">7</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">8</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">9</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">10</span></td>
+                                <td class="calender--wrapper__content__data"><span class="date">11</span></td>
+                            </tr>
+
+                        </table>
+
+
+                    </div>
+
+                    <div class="scrollable--box">
+                        <div class="scrollable--box__header">News with avatars(scrollable box)<span class="scrollable--box__header__label">178</span></div>
+                        <ul class="scrollable--box__list">
+                            <!--                    list 1-->
+                            <li class="scrollable--box__list--wrapper">
+
+                                <span class="scrollable--box__list--wrapper__list__icon-wrapper"><span class="scrollable--box__list--wrapper__list__icon-wrapper__tick"></span></span>
+                                <div class="scrollable--box__list--wrapper__list__text-wrapper">
+                                    <h3 class="scrollable--box__list--wrapper__list__text-wrapper__heading">Twitter Bootstrap v3.0 is coming!</h3>
+                                    <p class="scrollable--box__list--wrapper__list__text-wrapper__desc">with 2.2.2 out the door, our attention has shifted almost entirely to the next major</p>
+                                </div>
+                                <div class="scrollable--box__list--wrapper__list__date--wrapper">
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__day">06</span>
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__month">jan</span>
+                                </div>
+
+                            </li>
+                            <!--                    list 2-->
+                            <li class="scrollable--box__list--wrapper">
+                                <span class="scrollable--box__list--wrapper__list__icon-wrapper2"><span class="flaticon-bulb scrollable-box__icon-bulb"></span></span>
+                                <div class="scrollable--box__list--wrapper__list__text-wrapper">
+                                    <h3 class="scrollable--box__list--wrapper__list__text-wrapper__heading">Ruby on Rails 4.04</h3>
+                                    <p class="scrollable--box__list--wrapper__list__text-wrapper__desc">with 2.2.2 out the door, our attention has shifted almost entirely to the next major update </p>
+                                </div>
+                                <div class="scrollable--box__list--wrapper__list__date--wrapper">
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__day">06</span>
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__month">jan</span>
+                                </div>
+                            </li>
+                            <!--                list 3-->
+                            <li class="scrollable--box__list--wrapper">
+                                <span class="scrollable--box__list--wrapper__list__icon-wrapper3"><span class="flaticon-phone scrollable-box__phone"></span></span>
+                                <div class="scrollable--box__list--wrapper__list__text-wrapper">
+                                    <h3 class="scrollable--box__list--wrapper__list__text-wrapper__heading">All about scss</h3>
+                                    <p class="scrollable--box__list--wrapper__list__text-wrapper__desc">with 2.2.2 out the door, our attention has shifted almost entirely to the next major update to the projectwith 2.2.2 </p>
+                                </div>
+                                <div class="scrollable--box__list--wrapper__list__date--wrapper">
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__day">06</span>
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__month">jan</span>
+                                </div>
+                            </li>
+                            <!--                list 4-->
+                            <li class="scrollable--box__list--wrapper">
+                                <span class="scrollable--box__list--wrapper__list__icon-wrapper"><span class="scrollable--box__list--wrapper__list__icon-wrapper__tick"></span></span>
+                                <div class="scrollable--box__list--wrapper__list__text-wrapper">
+                                    <h3 class="scrollable--box__list--wrapper__list__text-wrapper__heading">Twitter Bootstrap v3.0 is coming!</h3>
+                                    <p class="scrollable--box__list--wrapper__list__text-wrapper__desc">with 2.2.2 out the door, our attention has shifted almost entirely to the next major</p>
+                                </div>
+                                <div class="scrollable--box__list--wrapper__list__date--wrapper">
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__day">06</span>
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__month">jan</span>
+                                </div>
+                            </li>
+                            <!--list 5-->
+                            <li class="scrollable--box__list--wrapper">
+                                <span class="scrollable--box__list--wrapper__list__icon-wrapper"><span class="scrollable--box__list--wrapper__list__icon-wrapper__tick"></span></span>
+                                <div class="scrollable--box__list--wrapper__list__text-wrapper">
+                                    <h3 class="scrollable--box__list--wrapper__list__text-wrapper__heading">Twitter Bootstrap v3.0 is coming!</h3>
+                                    <p class="scrollable--box__list--wrapper__list__text-wrapper__desc">with 2.2.2 out the door, our attention has shifted almost entirely to the next major </p>
+                                </div>
+                                <div class="scrollable--box__list--wrapper__list__date--wrapper">
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__day">06</span>
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__month">jan</span>
+                                </div>
+                            </li>
+                            <!--                    list 6-->
+                            <li class="scrollable--box__list--wrapper">
+                                <span class="scrollable--box__list--wrapper__list__icon-wrapper"><span class="scrollable--box__list--wrapper__list__icon-wrapper__tick"></span></span>
+                                <div class="scrollable--box__list--wrapper__list__text-wrapper">
+                                    <h3 class="scrollable--box__list--wrapper__list__text-wrapper__heading">Twitter Bootstrap v3.0 is coming!</h3>
+                                    <p class="scrollable--box__list--wrapper__list__text-wrapper__desc">with 2.2.2 out the door, our attention has shifted almost entirely to the next majort</p>
+                                </div>
+                                <div class="scrollable--box__list--wrapper__list__date--wrapper">
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__day">06</span>
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__month">jan</span>
+                                </div>
+                            </li>
+                            <!--                    list 7-->
+                            <li class="scrollable--box__list--wrapper">
+                                <span class="scrollable--box__list--wrapper__list__icon-wrapper"><span class="scrollable--box__list--wrapper__list__icon-wrapper__tick"></span></span>
+                                <div class="scrollable--box__list--wrapper__list__text-wrapper">
+                                    <h3 class="scrollable--box__list--wrapper__list__text-wrapper__heading">Twitter Bootstrap v3.0 is coming!</h3>
+                                    <p class="scrollable--box__list--wrapper__list__text-wrapper__desc">with 2.2.2 out the door, our attention has shifted almost entirely to the next major </p>
+                                </div>
+                                <div class="scrollable--box__list--wrapper__list__date--wrapper">
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__day">06</span>
+                                    <span class="sccrollable--box__list--wrapper__list__date--wrapper__month">jan</span>
+                                </div>
+                            </li>
+                            <!--                   end of list 7-->
+                        </ul>
+                    </div>
+                </div>
+                <!--            section calender and scrollable box ends here-->
+
+                <!--            section textarea starts here-->
+                <!--            list1-->
+                <div class="row clearfix">
+                    <span class="profile--img"></span>
+                    <div class="textarea--list textarea-list1">
+                        <span class="profile--img--mobile"></span>
+                        <div class="textarea--list__heading">
+                            <span class="textarea--list__heading__label">COMMENT</span>
+                            <span class="textarea--list__heading__username">Michael</span>
+                            <span class="textarea--list__heading__title">posted comment on this task</span><span class="textarea--list__heading__title__name">Core Admin</span>
+                            <span class="textarea--list__heading__title__time--duration"><i class="flaticon-clock textarea-clock"></i>3 minutes ago</span>
+                        </div>
+                        <div class="textarea--list__textbox clearfix">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui cupiditate reprehenderit libero distinctio harum est quibusdam iure omnis molestias, eveniet totam earum dolorum, delectus. Totam quod inventore neque quibusdam, est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime commodi unde aspernatur rem optio ea eum perferendis doloremque quisquam, ducimus suscipit ratione sapiente in! <span class="textarea--list__attachment"><i class="flaticon-paperclip-document-outline icon-attachment"></i>project_news.docx</span></div>
+                    </div>
+                </div>
+                <!--            list 1ends here-->
+                <!--            list 2 starts here-->
+                <div class="row clearfix">
+                    <span class="profile--img2"></span>
+                    <div class="textarea--list textarea-list2 border-none">
+                        <span class="profile--img2--mobile"></span>
+                        <div class="textarea--list__heading">
+                            <span class="textarea--list__heading__label2">TASK</span>
+                            <span class="textarea--list__heading__username">Michael</span>
+                            <span class="textarea--list__heading__title">completed this task</span><span class="textarea--list__heading__title__name line-through">Core Admin</span>
+                            <span class="textarea--list__heading__title__time--duration"><i class="flaticon-clock textarea-clock"></i>6 minutes ago</span>
+                        </div>
+
+                    </div>
+                </div>
+                <!--            list 2 ends here-->
+                <!--            list 3 strats here-->
+                <div class="row clearfix">
+                    <span class="profile--img3"></span>
+                    <div class="textarea--list textarea-list3">
+                        <span class="profile--img3--mobile"></span>
+                        <div class="textarea--list__heading">
+                            <span class="textarea--list__heading__label3">FILE</span>
+                            <span class="textarea--list__heading__username">John</span>
+                            <span class="textarea--list__heading__title">added 3 new files in project </span><span class="textarea--list__heading__title__name">Core Admin</span>
+                            <span class="textarea--list__heading__title__time--duration"><i class="flaticon-clock textarea-clock"></i>12 minutes ago</span>
+                        </div>
+
+
+                        <div class="textarea--list__textbox  ">
+
+                            <div class="textarea--list__textbox__image">
+                                <span class="textarea--list__textbox__image--placeholder"> 240 x 100</span>
+                            </div>
+                            <div class="textarea--list__textbox__image">
+                                <span class="textarea--list__textbox__image--placeholder"> 240 x 100</span>
+                            </div>
+                            <div class="textarea--list__textbox__image">
+                                <span class="textarea--list__textbox__image--placeholder"> 240 x 100</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!--           list 3 ends here-->
+                <!--            list 4 starts here-->
+                <div class="row clearfix">
+                    <div class="comment--box">
+                        <div class="comment-box__text-wrapper">
+                            <div class="comment--box__text">
+                                <span class="comment--box__text__title">Add a comment for project <span class="comment--box__text__title__heading">core Admin</span></span>
+                                <span class="comment--box__text__subtitle">Click on the textarea below to expandc it!</span>
+                            </div>
+                            <div class="comment--box__image"></div>
+                        </div>
+                        <div class="comment--box__textarea">
+                            <textarea rows="5" cols="39" placeholder="add a comment (Click to expand !)"></textarea>
+                            <br />
+
+                        </div>
+                    </div>
+                </div>
+                <!--           list 4 ends here-->
+                <!--            section textarea Ends here-->
+            </div>
+        </div>
+        <!--        main content wrapper ends here-->
+
+
+    </div>
+    <!--    page wrapper ends here-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".nav--wrapper__list__search ").click(function () {
+                $(".flaticon-search").hide();
+            });
+        });
+    </script>
+</body>
+
+</html>
